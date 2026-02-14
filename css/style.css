@@ -1,0 +1,20 @@
+/* Clase común para botones de acción en el carrito */
+.btn-carrito-accion {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.btn-finalizar { background-color: #25d366; color: #fff; } /* Verde WhatsApp */
+.btn-mp { background-color: #009ee3; color: #fff; }       /* Azul Mercado Pago */
+
+/* Contenedor del Brick de MP para que no rompa el diseño */
+#wallet_container { margin-top: 10px; }
